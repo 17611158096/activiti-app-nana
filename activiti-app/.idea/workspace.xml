@@ -1,0 +1,1237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="activiti-app:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="69dcd583-7c89-4601-987a-d904476f7817" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="16" column="86" selection-start-line="16" selection-start-column="86" selection-end-line="16" selection-end-column="86" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="authentication-service.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/common/services/authentication-service.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="169" lean-forward="true" selection-start-line="169" selection-end-line="169" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Sign in</find>
+      <find>/authentication</find>
+    </findStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="F:/spring" value="PREVIEW" />
+        <entry key="F:/spring-framework" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/webapp/views/login.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/scripts/common/services/authentication-service.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/maven/apache-maven-3.2.5" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="activiti-app" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="activiti-app" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/src/main/webapp/display/node_modules" />
+    <handled-path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/abbrev/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/acorn/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/adm-zip/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/ajv/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/alter/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/amdefine/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/ansi-styles/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/ansi/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/archy/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/argparse/node_modules/underscore.string/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/argparse/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/asn1/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/async/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/asynckit/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/autoprefixer/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/aws-sign2/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/aws4/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/balanced-match/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/bcrypt-pbkdf/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/bin-build/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/bin-build/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/bin-build/node_modules/rimraf/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/bin-build/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/bin-check/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/bin-wrapper/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/binary/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/block-stream/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/bower/node_modules/abbrev/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/bower/node_modules/async/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/bower/node_modules/lodash/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/bower/node_modules/nopt/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/bower/node_modules/request/node_modules/form-data/node_modules/async/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/bower/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/bower/node_modules/request/node_modules/form-data/node_modules/combined-stream/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/bower/node_modules/request/node_modules/form-data/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/bower/node_modules/request/node_modules/mime/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/bower/node_modules/request/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/bower/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/brace-expansion/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/buffer-crc32/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/buffers/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/bytes/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/caseless/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/chainsaw/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/clean-css/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/cli/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/coa/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/coffee-script/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/colors/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/combined-stream/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/commander/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/concat-map/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/config-chain/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/configstore/node_modules/argparse/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/configstore/node_modules/esprima/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/configstore/node_modules/graceful-fs/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/configstore/node_modules/js-yaml/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/configstore/node_modules/mkdirp/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/configstore/node_modules/object-assign/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/configstore/node_modules/uuid/benchmark/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/configstore/node_modules/uuid/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/configstore/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/connect-livereload/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/connect/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/console-browserify/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/convert-source-map/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/cookie-signature/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/cookie/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/core-util-is/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/css-parse/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/css-stringify/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/dargs/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/dashdash/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/dateformat/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/decompress/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/decompress/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/decompress/node_modules/nopt/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/decompress/node_modules/rimraf/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/decompress/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/delayed-stream/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/download/node_modules/nopt/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/download/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/duplexer/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/each-async/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/ecc-jsbn/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/escape-string-regexp/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/esprima/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/eventemitter2/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/executable/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/exit/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/ext-list/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/ext-name/node_modules/underscore.string/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/ext-name/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/extend/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/extsprintf/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/fast-deep-equal/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/fast-json-stable-stringify/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/faye-websocket/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/filesize/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/find-file/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/findup-sync/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/findup-sync/node_modules/lodash/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/findup-sync/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/findup-sync/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/forever-agent/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/form-data/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/formidable/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/fresh/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/fs.realpath/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/fstream/node_modules/graceful-fs/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/fstream/node_modules/mkdirp/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/fstream/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/gaze/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/get-stdin/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/get-urls/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/getobject/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/getpass/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/glob/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/globule/node_modules/lodash/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/globule/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/got/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/graceful-fs/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/grunt-autoprefixer/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/grunt-bower-install/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/grunt-concurrent/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/grunt-contrib-clean/node_modules/rimraf/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/grunt-contrib-clean/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/grunt-contrib-coffee/node_modules/coffee-script/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/grunt-contrib-coffee/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/grunt-contrib-compass/node_modules/async/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/grunt-contrib-compass/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/grunt-contrib-concat/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/grunt-contrib-connect/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/grunt-contrib-copy/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/grunt-contrib-cssmin/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/grunt-contrib-htmlmin/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/grunt-contrib-jshint/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/grunt-contrib-rename/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/grunt-contrib-uglify/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/grunt-contrib-watch/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/grunt-google-cdn/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/grunt-lib-contrib/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/grunt-newer/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/grunt-ng-annotate/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/grunt-rev/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/grunt-svgmin/node_modules/filesize/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/grunt-svgmin/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/grunt-text-replace/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/grunt-usemin/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/grunt-usemin/node_modules/lodash/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/grunt-usemin/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/grunt/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/har-schema/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/har-validator/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/has-ansi/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/has-color/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/hogan.js/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/hooker/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/html-minifier/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/http-signature/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/iconv-lite/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/inflight/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/ini/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/is-typedarray/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/isstream/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/jpegtran-bin/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/js-yaml/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/jsbn/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/jshint-stylish/node_modules/ansi-styles/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/jshint-stylish/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/jshint-stylish/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/jshint/node_modules/underscore/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/jshint/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/json-schema-traverse/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/json-schema/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/json-stringify-safe/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/jsprim/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/load-grunt-tasks/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/lodash/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/log-symbols/node_modules/ansi-styles/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/log-symbols/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/log-symbols/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/lpad/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/lru-cache/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/match-stream/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/mime-types/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/mime/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/mkdirp/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/mout/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/mute-stream/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/natives/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/ng-annotate/node_modules/esprima/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/ng-annotate/node_modules/optimist/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/ng-annotate/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/nopt/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/noptify/node_modules/nopt/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/noptify/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/npmlog/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/oauth-sign/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/object-assign/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/object-keys/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/once/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/open/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/optimist/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/optipng-bin/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/ordered-ast-traverse/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/ordered-esprima-props/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/os-homedir/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/os-tmpdir/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/osenv/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/over/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/path-is-absolute/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/pause/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/performance-now/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/pngquant-bin/node_modules/ansi-styles/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/pngquant-bin/node_modules/bin-wrapper/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/pngquant-bin/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/pngquant-bin/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/pngquant-bin/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/pngquant-bin/node_modules/rimraf/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/pngquant-bin/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/pngquant-bin/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/promptly/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/proto-list/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/psl/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/pullstream/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/punycode/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/q/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/range-parser/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/rc/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/read-package-json/node_modules/lru-cache/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/read-package-json/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/read/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/request/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/request/node_modules/uuid/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/request/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/rimraf/node_modules/graceful-fs/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/rimraf/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/safe-buffer/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/sax/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/send/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/setimmediate/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/shelljs/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/sigmund/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/simple-fmt/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/simple-is/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/slice-stream/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/slide/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/sprintf-js/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/sshpk/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/stable/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/stream-combiner/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/stringmap/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/stringset/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/supports-color/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/svgo/node_modules/argparse/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/svgo/node_modules/esprima/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/svgo/node_modules/js-yaml/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/svgo/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/tar/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/tempfile/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/text-table/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/through2/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/time-grunt/node_modules/ansi-styles/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/time-grunt/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/time-grunt/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/time-grunt/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/tiny-lr/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/tiny-lr/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/tiny-lr/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/tmp/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/tough-cookie/node_modules/punycode/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/tough-cookie/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/traverse/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/tryor/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/tunnel-agent/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/tweetnacl/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/uglify-js/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/underscore.string/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/underscore/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/unzip/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/update-notifier/node_modules/ansi-styles/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/update-notifier/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/update-notifier/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/update-notifier/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/update-notifier/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/uri-js/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/user-home/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/uuid/benchmark/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/uuid/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/verror/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/whet.extend/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/which/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/wiredep/node_modules/lodash/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/wiredep/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/wordwrap/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/wrappy/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/xdg-basedir/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/xtend/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/node_modules/zlib-browserify/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/display/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/editor/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/abbrev/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/acorn/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/adm-zip/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/ajv/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/alter/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/amdefine/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/ansi-styles/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/ansi/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/archiver/node_modules/lodash/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/archiver/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/archy/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/argparse/node_modules/underscore.string/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/argparse/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/asn1/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/async/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/asynckit/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/autoprefixer/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/aws-sign2/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/aws4/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/balanced-match/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/bcrypt-pbkdf/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/bin-build/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/bin-build/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/bin-build/node_modules/rimraf/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/bin-build/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/bin-check/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/bin-wrapper/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/binary/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/block-stream/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/bower/node_modules/abbrev/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/bower/node_modules/async/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/bower/node_modules/lodash/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/bower/node_modules/nopt/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/bower/node_modules/request/node_modules/form-data/node_modules/async/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/bower/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/bower/node_modules/request/node_modules/form-data/node_modules/combined-stream/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/bower/node_modules/request/node_modules/form-data/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/bower/node_modules/request/node_modules/mime/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/bower/node_modules/request/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/bower/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/brace-expansion/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/buffer-crc32/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/buffers/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/bytes/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/caseless/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/chainsaw/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/clean-css/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/cli/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/coa/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/coffee-script/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/colors/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/combined-stream/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/commander/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/concat-map/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/config-chain/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/configstore/node_modules/argparse/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/configstore/node_modules/esprima/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/configstore/node_modules/graceful-fs/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/configstore/node_modules/js-yaml/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/configstore/node_modules/mkdirp/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/configstore/node_modules/object-assign/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/configstore/node_modules/uuid/benchmark/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/configstore/node_modules/uuid/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/configstore/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/connect-livereload/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/connect/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/console-browserify/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/convert-source-map/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/cookie-signature/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/cookie/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/core-util-is/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/css-parse/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/css-stringify/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/dargs/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/dashdash/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/dateformat/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/decompress/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/decompress/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/decompress/node_modules/nopt/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/decompress/node_modules/rimraf/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/decompress/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/delayed-stream/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/download/node_modules/nopt/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/download/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/duplexer/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/each-async/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/ecc-jsbn/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/escape-string-regexp/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/esprima/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/eventemitter2/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/executable/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/exit/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/ext-list/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/ext-name/node_modules/underscore.string/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/ext-name/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/extend/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/extsprintf/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/fast-deep-equal/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/fast-json-stable-stringify/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/faye-websocket/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/file-utils/node_modules/glob/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/file-utils/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/file-utils/node_modules/lodash/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/file-utils/node_modules/rimraf/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/file-utils/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/filesize/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/find-file/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/findup-sync/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/findup-sync/node_modules/lodash/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/findup-sync/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/findup-sync/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/forever-agent/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/form-data/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/formidable/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/fresh/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/fs.realpath/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/fstream/node_modules/graceful-fs/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/fstream/node_modules/mkdirp/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/fstream/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/gaze/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/get-stdin/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/get-urls/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/getobject/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/getpass/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/glob/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/globule/node_modules/lodash/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/globule/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/got/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/graceful-fs/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/grunt-autoprefixer/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/grunt-bower-install/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/grunt-concurrent/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/grunt-contrib-clean/node_modules/rimraf/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/grunt-contrib-clean/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/grunt-contrib-coffee/node_modules/coffee-script/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/grunt-contrib-coffee/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/grunt-contrib-compass/node_modules/async/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/grunt-contrib-compass/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/grunt-contrib-compress/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/grunt-contrib-concat/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/grunt-contrib-connect/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/grunt-contrib-copy/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/grunt-contrib-cssmin/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/grunt-contrib-htmlmin/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/grunt-contrib-jshint/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/grunt-contrib-uglify/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/grunt-contrib-watch/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/grunt-google-cdn/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/grunt-lib-contrib/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/grunt-newer/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/grunt-ng-annotate/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/grunt-rev/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/grunt-svgmin/node_modules/filesize/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/grunt-svgmin/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/grunt-usemin/node_modules/lodash/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/grunt-usemin/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/grunt/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/har-schema/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/har-validator/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/has-ansi/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/has-color/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/hogan.js/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/hooker/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/html-minifier/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/http-signature/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/iconv-lite/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/inflight/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/ini/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/is-typedarray/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/isbinaryfile/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/isstream/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/jpegtran-bin/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/js-yaml/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/jsbn/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/jshint-stylish/node_modules/ansi-styles/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/jshint-stylish/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/jshint-stylish/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/jshint/node_modules/underscore/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/jshint/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/json-schema-traverse/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/json-schema/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/json-stringify-safe/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/jsprim/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/lazystream/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/load-grunt-tasks/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/lodash._isnative/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/lodash._objecttypes/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/lodash._shimkeys/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/lodash.defaults/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/lodash.isobject/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/lodash.keys/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/lodash/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/log-symbols/node_modules/ansi-styles/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/log-symbols/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/log-symbols/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/lpad/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/lru-cache/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/match-stream/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/mime-types/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/mime/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/mkdirp/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/mout/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/mute-stream/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/natives/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/ng-annotate/node_modules/esprima/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/ng-annotate/node_modules/optimist/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/ng-annotate/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/nopt/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/noptify/node_modules/nopt/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/noptify/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/npmlog/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/oauth-sign/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/object-assign/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/object-keys/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/once/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/open/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/optimist/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/optipng-bin/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/ordered-ast-traverse/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/ordered-esprima-props/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/os-homedir/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/os-tmpdir/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/osenv/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/over/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/path-is-absolute/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/pause/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/performance-now/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/pngquant-bin/node_modules/ansi-styles/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/pngquant-bin/node_modules/bin-wrapper/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/pngquant-bin/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/pngquant-bin/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/pngquant-bin/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/pngquant-bin/node_modules/rimraf/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/pngquant-bin/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/pngquant-bin/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/prettysize/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/promptly/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/proto-list/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/psl/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/pullstream/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/punycode/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/q/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/range-parser/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/rc/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/read-package-json/node_modules/lru-cache/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/read-package-json/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/read/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/request/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/request/node_modules/uuid/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/request/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/rimraf/node_modules/graceful-fs/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/rimraf/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/safe-buffer/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/sax/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/send/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/setimmediate/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/shelljs/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/sigmund/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/simple-fmt/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/simple-is/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/slice-stream/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/slide/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/sprintf-js/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/sshpk/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/stable/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/stream-combiner/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/stringmap/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/stringset/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/supports-color/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/svgo/node_modules/argparse/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/svgo/node_modules/esprima/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/svgo/node_modules/js-yaml/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/svgo/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/tar/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/tempfile/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/text-table/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/through2/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/time-grunt/node_modules/ansi-styles/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/time-grunt/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/time-grunt/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/tiny-lr/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/tiny-lr/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/tmp/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/tough-cookie/node_modules/punycode/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/tough-cookie/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/traverse/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/tryor/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/tunnel-agent/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/tweetnacl/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/uglify-js/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/underscore.string/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/underscore/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/unzip/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/update-notifier/node_modules/ansi-styles/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/update-notifier/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/update-notifier/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/update-notifier/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/update-notifier/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/uri-js/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/user-home/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/uuid/benchmark/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/uuid/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/verror/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/whet.extend/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/which/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/wiredep/node_modules/lodash/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/wiredep/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/wordwrap/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/wrappy/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/xdg-basedir/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/xtend/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/zip-stream/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/node_modules/zlib-browserify/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/idm/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/libs/es5-shim-15.3.4.5/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/workflow/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="24" />
+    <option name="width" value="720" />
+    <option name="height" value="860" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="activiti-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti-app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activiti-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activiti-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activiti-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activiti-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="fe-run" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.85" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="activiti-app:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_activiti-app" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="61655" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="activiti-app:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Twisted Trial">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\linaos4084\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="69dcd583-7c89-4601-987a-d904476f7817" name="Default" comment="" />
+      <created>1554780490285</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554780490285</updated>
+      <workItem from="1554780493130" duration="2817000" />
+      <workItem from="1555041895324" duration="1115000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3932000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.57780784" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.16690545" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.19215156" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32882273" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24068768" />
+      <window_info anchor="right" id="Bean Validation" order="3" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="right" id="BPMNPalette" order="3" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/version.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/workflow/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/workflow/user-picture.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/404.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/_vti_inf.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oryx-editor-code/icons/icons.psd">
+      <provider selected="true" editor-type-id="layeredimageeditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/editor/views/process.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="820">
+          <caret line="41" column="47" lean-forward="true" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/version.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/workflow/user-picture.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/404.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/_vti_inf.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oryx-editor-code/icons/icons.psd">
+      <provider selected="true" editor-type-id="layeredimageeditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/editor/views/process.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="820">
+          <caret line="41" column="47" lean-forward="true" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/workflow/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="86" selection-start-line="16" selection-start-column="86" selection-end-line="16" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/common/services/authentication-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="169" lean-forward="true" selection-start-line="169" selection-end-line="169" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
