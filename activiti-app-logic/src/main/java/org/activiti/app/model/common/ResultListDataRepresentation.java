@@ -12,6 +12,9 @@
  */
 package org.activiti.app.model.common;
 
+import com.baomidou.mybatisplus.plugins.Page;
+
+import javax.xml.crypto.dsig.Transform;
 import java.util.List;
 
 
@@ -35,6 +38,15 @@ public class ResultListDataRepresentation {
 			total = Long.valueOf(data.size());
 			start = 0;
 		}
+	}
+
+	public static ResultListDataRepresentation TransformPageList(List<? extends Object> list,Page<? extends Object> page){
+		ResultListDataRepresentation rl=new ResultListDataRepresentation();
+		rl.setData(list);
+		rl.setSize(page.getSize());
+		rl.setTotal(Long.valueOf(page.getTotal()));
+		rl.setSize(page.getSize());
+		return rl;
 	}
 	
 	public Integer getSize() {

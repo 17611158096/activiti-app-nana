@@ -61,74 +61,51 @@ public class DatabaseConfiguration {
 
   @Inject
   private Environment env;
-//  @Bean
-//  public void RegisterJdbcDriver() throws ClassNotFoundException {
-//    new com.mysql.jdbc.Driver();//创建driver对象，加载数据库驱动
-//    DriverManagerDataSource dataSource=new DriverManagerDataSource();
-//    dataSource.setDriverClass("");
-//    dataSource.setUser("jdbc:mysql://activiti_info");
-//    dataSource.setUser("root");
-//    dataSource.setPassword("root");
-//  }
-
   @Bean
   public DataSource dataSource() {
     log.info("Configuring Datasource");
 
     String dataSourceJndiName = env.getProperty("datasource.jndi.name");
     if (StringUtils.isNotEmpty(dataSourceJndiName)) {
-
       log.info("Using jndi datasource '" + dataSourceJndiName + "'");
       JndiDataSourceLookup dsLookup = new JndiDataSourceLookup();
       dsLookup.setResourceRef(env.getProperty("datasource.jndi.resourceRef", Boolean.class, Boolean.TRUE));
       DataSource dataSource = dsLookup.getDataSource(dataSourceJndiName);
       return dataSource;
-
     } else {
-
       String dataSourceDriver = env.getProperty("datasource.driver", "org.h2.Driver");
       String dataSourceUrl = env.getProperty("datasource.url", "jdbc:h2:mem:activiti;DB_CLOSE_DELAY=-1");
-
       String dataSourceUsername = env.getProperty("datasource.username", "sa");
       String dataSourcePassword = env.getProperty("datasource.password", "");
-
       Integer minPoolSize = env.getProperty("datasource.min-pool-size", Integer.class);
       if (minPoolSize == null) {
         minPoolSize = 10;
       }
-
       Integer maxPoolSize = env.getProperty("datasource.max-pool-size", Integer.class);
       if (maxPoolSize == null) {
         maxPoolSize = 100;
       }
-
       Integer acquireIncrement = env.getProperty("datasource.acquire-increment", Integer.class);
       if (acquireIncrement == null) {
         acquireIncrement = 5;
       }
-
       String preferredTestQuery = env.getProperty("datasource.preferred-test-query");
-
       Boolean testConnectionOnCheckin = env.getProperty("datasource.test-connection-on-checkin", Boolean.class);
       if (testConnectionOnCheckin == null) {
         testConnectionOnCheckin = true;
       }
-
       Boolean testConnectionOnCheckOut = env.getProperty("datasource.test-connection-on-checkout", Boolean.class);
       if (testConnectionOnCheckOut == null) {
         testConnectionOnCheckOut = true;
       }
-
       Integer maxIdleTime = env.getProperty("datasource.max-idle-time", Integer.class);
       if (maxIdleTime == null) {
         maxIdleTime = 1800;
       }
-
       Integer maxIdleTimeExcessConnections = env.getProperty("datasource.max-idle-time-excess-connections", Integer.class);
       if (maxIdleTimeExcessConnections == null) {
         maxIdleTimeExcessConnections = 1800;
       }
-
       if (log.isInfoEnabled()) {
         log.info("Configuring Datasource with following properties (omitted password for security)");
         log.info("datasource driver: " + dataSourceDriver);

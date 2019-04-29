@@ -42,6 +42,7 @@ public class AppDefinitionsResource extends AbstractAppDefinitionsResource {
   @Inject
   protected PermissionService permissionService;
 
+  @Override
   @RequestMapping(value = "/rest/runtime/app-definitions", method = RequestMethod.GET)
   public ResultListDataRepresentation getAppDefinitions() {
     return super.getAppDefinitions();

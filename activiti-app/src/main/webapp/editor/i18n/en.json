@@ -229,7 +229,7 @@
             "PASSWORD": "Password",
             "PASSWORD.PLACEHOLDER": "Enter your password",
             "REMEMBERME": "Automatic Login",
-            "BUTTON": "Sign in"
+            "BUTTON": "登录"
         },
         "MESSAGES": {
             "ERROR": {
@@ -640,7 +640,7 @@
           "NOT-FOUND": "The requested app definition does not exist"
         },
         "KICKSTART": {
-          "TITLE": "Kickstart App",
+          "TITLE": "创建应用",
           "TITLE-PROCESSES": "Process models",
           "TITLE-FORMS": "Form models",
           "TITLE-APPS": "App models",
@@ -650,13 +650,13 @@
           "TITLE": "Admin App"
         },
         "TASKS": {
-          "TITLE": "Task App",
+          "TITLE": "任务应用",
           "TITLE-TASKS": "Tasks",
           "TITLE-PROCESSES": "Processes"
         },
         "IDENTITY-MANAGEMENT": {
           "TITLE": "Profile",
-          "TITLE-TENANT-ADMIN": "Identity management",
+          "TITLE-TENANT-ADMIN": "身份管理",
           "TITLE-TENANT-ADMIN-TENANT-MGMT": "Tenants",
           "TITLE-TENANT-ADMIN-USER-MGMT": "Users",
           "TITLE-TENANT-ADMIN-SYSTEM-GROUP-MGMT": "Capabilities",

@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.activiti.app.dao.processmgmt.ActReProcdefMapper">
+
+    <resultMap type="org.activiti.app.model.processmgmt.ActReProcdef" id="ActReProcdefMap">
+        <result property="id_" column="ID_" jdbcType="VARCHAR"/>
+        <result property="rev_" column="REV_" jdbcType="INTEGER"/>
+        <result property="category_" column="CATEGORY_" jdbcType="VARCHAR"/>
+        <result property="name_" column="NAME_" jdbcType="VARCHAR"/>
+        <result property="key_" column="KEY_" jdbcType="VARCHAR"/>
+        <result property="version_" column="VERSION_" jdbcType="INTEGER"/>
+        <result property="deploymentId_" column="DEPLOYMENT_ID_" jdbcType="VARCHAR"/>
+        <result property="resourceName_" column="RESOURCE_NAME_" jdbcType="VARCHAR"/>
+        <result property="dgrmResourceName_" column="DGRM_RESOURCE_NAME_" jdbcType="VARCHAR"/>
+        <result property="description_" column="DESCRIPTION_" jdbcType="VARCHAR"/>
+        <result property="hasStartFormKey_" column="HAS_START_FORM_KEY_" jdbcType="OTHER"/>
+        <result property="hasGraphicalNotation_" column="HAS_GRAPHICAL_NOTATION_" jdbcType="OTHER"/>
+        <result property="suspensionState_" column="SUSPENSION_STATE_" jdbcType="INTEGER"/>
+        <result property="tenantId_" column="TENANT_ID_" jdbcType="VARCHAR"/>
+        <result property="engineVersion_" column="ENGINE_VERSION_" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="ActReProcdefMap">
+        select
+          ID_, REV_, CATEGORY_, NAME_, KEY_, VERSION_, DEPLOYMENT_ID_, RESOURCE_NAME_, DGRM_RESOURCE_NAME_, DESCRIPTION_, HAS_START_FORM_KEY_, HAS_GRAPHICAL_NOTATION_, SUSPENSION_STATE_, TENANT_ID_, ENGINE_VERSION_
+        from activiti_info.act_re_procdef
+        where ID_ = #{id_}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="ActReProcdefMap">
+        select
+          ID_, REV_, CATEGORY_, NAME_, KEY_, VERSION_, DEPLOYMENT_ID_, RESOURCE_NAME_, DGRM_RESOURCE_NAME_, DESCRIPTION_, HAS_START_FORM_KEY_, HAS_GRAPHICAL_NOTATION_, SUSPENSION_STATE_, TENANT_ID_, ENGINE_VERSION_
+        from activiti_info.act_re_procdef
+        order by  id_
+        limit #{offset}, #{limit}
+    </select>
+
+    <!--通过实体作为筛选条件查询-->
+    <select id="queryAll" resultMap="ActReProcdefMap">
+        select
+          ID_, REV_, CATEGORY_, NAME_, KEY_, VERSION_, DEPLOYMENT_ID_, RESOURCE_NAME_, DGRM_RESOURCE_NAME_, DESCRIPTION_, HAS_START_FORM_KEY_, HAS_GRAPHICAL_NOTATION_, SUSPENSION_STATE_, TENANT_ID_, ENGINE_VERSION_
+        from activiti_info.act_re_procdef
+        <where>
+            <if test="id_ != null and id_ != ''">
+                and ID_ = #{id_}
+            </if>
+            <if test="rev_ != null">
+                and REV_ = #{rev_}
+            </if>
+            <if test="category_ != null and category_ != ''">
+                and CATEGORY_ = #{category_}
+            </if>
+            <if test="name_ != null and name_ != ''">
+                and NAME_ = #{name_}
+            </if>
+            <if test="key_ != null and key_ != ''">
+                and KEY_ = #{key_}
+            </if>
+            <if test="version_ != null">
+                and VERSION_ = #{version_}
+            </if>
+            <if test="deploymentId_ != null and deploymentId_ != ''">
+                and DEPLOYMENT_ID_ = #{deploymentId_}
+            </if>
+            <if test="resourceName_ != null and resourceName_ != ''">
+                and RESOURCE_NAME_ = #{resourceName_}
+            </if>
+            <if test="dgrmResourceName_ != null and dgrmResourceName_ != ''">
+                and DGRM_RESOURCE_NAME_ = #{dgrmResourceName_}
+            </if>
+            <if test="description_ != null and description_ != ''">
+                and DESCRIPTION_ = #{description_}
+            </if>
+            <if test="hasStartFormKey_ != null">
+                and HAS_START_FORM_KEY_ = #{hasStartFormKey_}
+            </if>
+            <if test="hasGraphicalNotation_ != null">
+                and HAS_GRAPHICAL_NOTATION_ = #{hasGraphicalNotation_}
+            </if>
+            <if test="suspensionState_ != null">
+                and SUSPENSION_STATE_ = #{suspensionState_}
+            </if>
+            <if test="tenantId_ != null and tenantId_ != ''">
+                and TENANT_ID_ = #{tenantId_}
+            </if>
+            <if test="engineVersion_ != null and engineVersion_ != ''">
+                and ENGINE_VERSION_ = #{engineVersion_}
+            </if>
+        </where> order by  id_
+    </select>
+     
+     <!--分页条件查询-->
+    <select id="selectByConditionPage" resultMap="ActReProcdefMap">
+        select
+          ID_, REV_, CATEGORY_, NAME_, KEY_, VERSION_, DEPLOYMENT_ID_, RESOURCE_NAME_, DGRM_RESOURCE_NAME_, DESCRIPTION_, HAS_START_FORM_KEY_, HAS_GRAPHICAL_NOTATION_, SUSPENSION_STATE_, TENANT_ID_, ENGINE_VERSION_
+        from activiti_info.act_re_procdef
+        <where>
+            <if test="id_ != null and id_ != ''">
+                and ID_ = #{id_}
+            </if>
+            <if test="rev_ != null">
+                and REV_ = #{rev_}
+            </if>
+            <if test="category_ != null and category_ != ''">
+                and CATEGORY_ = #{category_}
+            </if>
+            <if test="name_ != null and name_ != ''">
+                and NAME_ = #{name_}
+            </if>
+            <if test="key_ != null and key_ != ''">
+                and KEY_ = #{key_}
+            </if>
+            <if test="version_ != null">
+                and VERSION_ = #{version_}
+            </if>
+            <if test="deploymentId_ != null and deploymentId_ != ''">
+                and DEPLOYMENT_ID_ = #{deploymentId_}
+            </if>
+            <if test="resourceName_ != null and resourceName_ != ''">
+                and RESOURCE_NAME_ = #{resourceName_}
+            </if>
+            <if test="dgrmResourceName_ != null and dgrmResourceName_ != ''">
+                and DGRM_RESOURCE_NAME_ = #{dgrmResourceName_}
+            </if>
+            <if test="description_ != null and description_ != ''">
+                and DESCRIPTION_ = #{description_}
+            </if>
+            <if test="hasStartFormKey_ != null">
+                and HAS_START_FORM_KEY_ = #{hasStartFormKey_}
+            </if>
+            <if test="hasGraphicalNotation_ != null">
+                and HAS_GRAPHICAL_NOTATION_ = #{hasGraphicalNotation_}
+            </if>
+            <if test="suspensionState_ != null">
+                and SUSPENSION_STATE_ = #{suspensionState_}
+            </if>
+            <if test="tenantId_ != null and tenantId_ != ''">
+                and TENANT_ID_ = #{tenantId_}
+            </if>
+            <if test="engineVersion_ != null and engineVersion_ != ''">
+                and ENGINE_VERSION_ = #{engineVersion_}
+            </if>
+        </where>  order by  id_ desc
+        
+    </select>
+    
+    <!--column in 查询-->
+    <select id="selectColumnIn" resultMap="ActReProcdefMap">
+        select
+          ID_, REV_, CATEGORY_, NAME_, KEY_, VERSION_, DEPLOYMENT_ID_, RESOURCE_NAME_, DGRM_RESOURCE_NAME_, DESCRIPTION_, HAS_START_FORM_KEY_, HAS_GRAPHICAL_NOTATION_, SUSPENSION_STATE_, TENANT_ID_, ENGINE_VERSION_        from activiti_info.act_re_procdef
+        <where>
+            ${inColumn} in
+            (<foreach collection="paramList" item="param" index="index" separator=",">
+            #{param}
+            </foreach>)
+        </where>
+    </select>
+    
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="id_" useGeneratedKeys="true">
+        insert into activiti_info.act_re_procdef(REV_, CATEGORY_, NAME_, KEY_, VERSION_, DEPLOYMENT_ID_, RESOURCE_NAME_, DGRM_RESOURCE_NAME_, DESCRIPTION_, HAS_START_FORM_KEY_, HAS_GRAPHICAL_NOTATION_, SUSPENSION_STATE_, TENANT_ID_, ENGINE_VERSION_)
+        values (#{rev_}, #{category_}, #{name_}, #{key_}, #{version_}, #{deploymentId_}, #{resourceName_}, #{dgrmResourceName_}, #{description_}, #{hasStartFormKey_}, #{hasGraphicalNotation_}, #{suspensionState_}, #{tenantId_}, #{engineVersion_})
+    </insert>
+    
+     <!--批量新增所有列-->
+    <insert id="insertBatch">
+        insert into activiti_info.act_re_procdef(REV_,CATEGORY_,NAME_,KEY_,VERSION_,DEPLOYMENT_ID_,RESOURCE_NAME_,DGRM_RESOURCE_NAME_,DESCRIPTION_,HAS_START_FORM_KEY_,HAS_GRAPHICAL_NOTATION_,SUSPENSION_STATE_,TENANT_ID_,ENGINE_VERSION_)
+        values 
+        <foreach collection="actReProcdefList" item="actReProcdef" index="index" separator=",">
+        (
+           #{actReProcdef.rev_,jdbcType=INTEGER},
+           #{actReProcdef.category_,jdbcType=VARCHAR},
+           #{actReProcdef.name_,jdbcType=VARCHAR},
+           #{actReProcdef.key_,jdbcType=VARCHAR},
+           #{actReProcdef.version_,jdbcType=INTEGER},
+           #{actReProcdef.deploymentId_,jdbcType=VARCHAR},
+           #{actReProcdef.resourceName_,jdbcType=VARCHAR},
+           #{actReProcdef.dgrmResourceName_,jdbcType=VARCHAR},
+           #{actReProcdef.description_,jdbcType=VARCHAR},
+           #{actReProcdef.hasStartFormKey_,jdbcType=OTHER},
+           #{actReProcdef.hasGraphicalNotation_,jdbcType=OTHER},
+           #{actReProcdef.suspensionState_,jdbcType=INTEGER},
+           #{actReProcdef.tenantId_,jdbcType=VARCHAR},
+           #{actReProcdef.engineVersion_,jdbcType=VARCHAR}
+            )
+        </foreach>
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update activiti_info.act_re_procdef
+        <set>
+            <if test="rev_ != null">
+                REV_ = #{rev_},
+            </if>
+            <if test="category_ != null and category_ != ''">
+                CATEGORY_ = #{category_},
+            </if>
+            <if test="name_ != null and name_ != ''">
+                NAME_ = #{name_},
+            </if>
+            <if test="key_ != null and key_ != ''">
+                KEY_ = #{key_},
+            </if>
+            <if test="version_ != null">
+                VERSION_ = #{version_},
+            </if>
+            <if test="deploymentId_ != null and deploymentId_ != ''">
+                DEPLOYMENT_ID_ = #{deploymentId_},
+            </if>
+            <if test="resourceName_ != null and resourceName_ != ''">
+                RESOURCE_NAME_ = #{resourceName_},
+            </if>
+            <if test="dgrmResourceName_ != null and dgrmResourceName_ != ''">
+                DGRM_RESOURCE_NAME_ = #{dgrmResourceName_},
+            </if>
+            <if test="description_ != null and description_ != ''">
+                DESCRIPTION_ = #{description_},
+            </if>
+            <if test="hasStartFormKey_ != null">
+                HAS_START_FORM_KEY_ = #{hasStartFormKey_},
+            </if>
+            <if test="hasGraphicalNotation_ != null">
+                HAS_GRAPHICAL_NOTATION_ = #{hasGraphicalNotation_},
+            </if>
+            <if test="suspensionState_ != null">
+                SUSPENSION_STATE_ = #{suspensionState_},
+            </if>
+            <if test="tenantId_ != null and tenantId_ != ''">
+                TENANT_ID_ = #{tenantId_},
+            </if>
+            <if test="engineVersion_ != null and engineVersion_ != ''">
+                ENGINE_VERSION_ = #{engineVersion_},
+            </if>
+        </set>
+        where ID_ = #{id_}
+    </update>
+    
+    <!--通过主键修改批量数据-->
+    <update id="updateBatch">
+        update activiti_info.act_re_procdef
+        <set>
+            <if test="actReProcdef.rev_ != null">
+                REV_ = #{actReProcdef.rev_},
+            </if>
+            <if test="actReProcdef.category_ != null and actReProcdef.category_ != ''">
+                CATEGORY_ = #{actReProcdef.category_},
+            </if>
+            <if test="actReProcdef.name_ != null and actReProcdef.name_ != ''">
+                NAME_ = #{actReProcdef.name_},
+            </if>
+            <if test="actReProcdef.key_ != null and actReProcdef.key_ != ''">
+                KEY_ = #{actReProcdef.key_},
+            </if>
+            <if test="actReProcdef.version_ != null">
+                VERSION_ = #{actReProcdef.version_},
+            </if>
+            <if test="actReProcdef.deploymentId_ != null and actReProcdef.deploymentId_ != ''">
+                DEPLOYMENT_ID_ = #{actReProcdef.deploymentId_},
+            </if>
+            <if test="actReProcdef.resourceName_ != null and actReProcdef.resourceName_ != ''">
+                RESOURCE_NAME_ = #{actReProcdef.resourceName_},
+            </if>
+            <if test="actReProcdef.dgrmResourceName_ != null and actReProcdef.dgrmResourceName_ != ''">
+                DGRM_RESOURCE_NAME_ = #{actReProcdef.dgrmResourceName_},
+            </if>
+            <if test="actReProcdef.description_ != null and actReProcdef.description_ != ''">
+                DESCRIPTION_ = #{actReProcdef.description_},
+            </if>
+            <if test="actReProcdef.hasStartFormKey_ != null">
+                HAS_START_FORM_KEY_ = #{actReProcdef.hasStartFormKey_},
+            </if>
+            <if test="actReProcdef.hasGraphicalNotation_ != null">
+                HAS_GRAPHICAL_NOTATION_ = #{actReProcdef.hasGraphicalNotation_},
+            </if>
+            <if test="actReProcdef.suspensionState_ != null">
+                SUSPENSION_STATE_ = #{actReProcdef.suspensionState_},
+            </if>
+            <if test="actReProcdef.tenantId_ != null and actReProcdef.tenantId_ != ''">
+                TENANT_ID_ = #{actReProcdef.tenantId_},
+            </if>
+            <if test="actReProcdef.engineVersion_ != null and actReProcdef.engineVersion_ != ''">
+                ENGINE_VERSION_ = #{actReProcdef.engineVersion_},
+            </if>
+        </set>
+         <where>
+             ID_ in
+            (<foreach collection="idList" item="id" index="index" separator=",">
+            #{id}
+            </foreach>)
+        </where>
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from activiti_info.act_re_procdef where ID_ = #{id_}
+    </delete>
+    
+    <!--通过主键批量删除-->
+    <delete id="deleteByIdBatch">
+        delete from activiti_info.act_re_procdef 
+         <where>
+            id in
+            (<foreach collection="idList" item="id" index="index" separator=",">
+            #{id}
+            </foreach>)
+        </where>
+    </delete>
+
+</mapper>

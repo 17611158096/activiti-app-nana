@@ -16,12 +16,11 @@
 activitiApp.service('RuntimeAppDefinitionService', ['$http', '$q', '$location', 'AuthenticationSharedService', 'appName',
     function ($http, $q, $location, AuthenticationSharedService, appName) {
 
-        var httpAsPromise = function(options) {
+        var httpAsPromise = function (options) {
             var deferred = $q.defer();
-            $http(options).
-                success(function (response, status, headers, config) {
-                    deferred.resolve(response);
-                })
+            $http(options).success(function (response, status, headers, config) {
+                deferred.resolve(response);
+            })
                 .error(function (response, status, headers, config) {
                     deferred.reject(response);
                 });
@@ -53,11 +52,12 @@ activitiApp.service('RuntimeAppDefinitionService', ['$http', '$q', '$location', 
                 editor: baseUrl + '/editor/',
                 identity: baseUrl + '/idm/',
                 workflow: baseUrl + '/workflow/',
+                processManage: baseUrl + '/processmgmt/',
                 admin: 'http://localhost:8080/activiti-admin',
                 analytics: baseUrl + '/analytics/'
             };
 
-            var transformAppsResponse = function(value) {
+            var transformAppsResponse = function (value) {
                 var response = JSON.parse(value);
                 var customApps = [];
                 for (var i = 0; i < response.data.length; i++) {
@@ -73,7 +73,7 @@ activitiApp.service('RuntimeAppDefinitionService', ['$http', '$q', '$location', 
                                     id: 'kickstart',
                                     titleKey: 'APP.KICKSTART.TITLE',
                                     descriptionKey: 'APP.KICKSTART.DESCRIPTION',
-                                    defaultAppId : app.defaultAppId,
+                                    defaultAppId: app.defaultAppId,
                                     theme: 'theme-1',
                                     icon: 'icon icon-choice',
                                     fixedBaseUrl: urls.editor + '/#/',
@@ -88,7 +88,7 @@ activitiApp.service('RuntimeAppDefinitionService', ['$http', '$q', '$location', 
                                     id: 'tasks',
                                     titleKey: 'APP.TASKS.TITLE',
                                     descriptionKey: 'APP.TASKS.DESCRIPTION',
-                                    defaultAppId : app.defaultAppId,
+                                    defaultAppId: app.defaultAppId,
                                     theme: 'theme-2',
                                     icon: 'icon icon-clock',
                                     fixedBaseUrl: urls.workflow + '/#/',
@@ -102,14 +102,14 @@ activitiApp.service('RuntimeAppDefinitionService', ['$http', '$q', '$location', 
                                 id: 'identity',
                                 titleKey: 'APP.IDENTITY-MANAGEMENT.TITLE',
                                 descriptionKey: 'APP.IDENTITY-MANAGEMENT.DESCRIPTION',
-                                defaultAppId : app.defaultAppId,
+                                defaultAppId: app.defaultAppId,
                                 theme: 'theme-3',
                                 icon: 'icon icon-user',
                                 fixedBaseUrl: urls.identity + '/#/',
                                 fixedUrl: urls.identity
                             };
 
-                                identityApp.pages = ['tenant-mgmt', 'user-mgmt', 'functional-group-mgmt', 'profile'];
+                            identityApp.pages = ['tenant-mgmt', 'user-mgmt', 'functional-group-mgmt', 'profile'];
 
                             defaultApps.push(identityApp);
 
@@ -120,11 +120,25 @@ activitiApp.service('RuntimeAppDefinitionService', ['$http', '$q', '$location', 
                                     id: 'analytics',
                                     titleKey: 'APP.ANALYTICS.TITLE',
                                     descriptionKey: 'APP.ANALYTICS.DESCRIPTION',
-                                    defaultAppId : app.defaultAppId,
+                                    defaultAppId: app.defaultAppId,
                                     theme: 'theme-6',
                                     icon: 'glyphicon glyphicon-stats',
                                     fixedBaseUrl: urls.analytics + '/#/',
                                     fixedUrl: urls.analytics
+                                });
+
+                        } else if (app.defaultAppId === 'processManage') {
+
+                            defaultApps.push(
+                                {
+                                    id: 'processManage',
+                                    titleKey: 'APP.PROCESS-MANAGE.TITLE',
+                                    descriptionKey: 'APP.PROCESS-MANAGE.DESCRIPTION',
+                                    defaultAppId: app.defaultAppId,
+                                    theme: 'theme-4',
+                                    icon: 'glyphicon glyphicon-stats',
+                                    fixedBaseUrl: urls.processManage + '/#/',
+                                    fixedUrl: urls.processManage
                                 });
 
                         }
@@ -137,7 +151,7 @@ activitiApp.service('RuntimeAppDefinitionService', ['$http', '$q', '$location', 
                         app.theme = 'theme-1';
                         app.fixedBaseUrl = baseUrl + '/workflow/#/apps/' + app.deploymentKey + '/';
                         app.fixedUrl = app.fixedBaseUrl + 'tasks';
-                        app.pages = [ 'tasks', 'processes' ];
+                        app.pages = ['tasks', 'processes'];
                         app.deletable = true;
                         customApps.push(app);
                     }

@@ -13,7 +13,7 @@
             "QUOTA-EXCEEDED-LICENSE-APPS": "The license only permits {{quota}} apps deployed at the same time."
         },
         "ACTION": {
-            "LOGOUT": "Sign out",
+            "LOGOUT": "退出登录",
             "HELP": "Getting started",
             "EDIT-PROFILE": "Edit profile",
             "SAVE": "Save",
@@ -26,12 +26,12 @@
     "LOGIN": {
         "TITLE": "Sign in",
         "USERNAME": "Username",
-        "USERNAME-PLACEHOLDER": "Enter your username",
+        "USERNAME-PLACEHOLDER": "请输入用户名",
         "PASSWORD": "Password",
-        "PASSWORD-PLACEHOLDER": "Enter your password",
+        "PASSWORD-PLACEHOLDER": "请输入密码",
         "INVALID-CREDENTIALS": "Invalid credentials",
         "ACTION": {
-            "CONFIRM": "Sign in"
+            "CONFIRM": "登录"
         }
     },
     "ACCOUNT": {
@@ -70,18 +70,24 @@
     },
     "APP": {
         "KICKSTART": {
-            "TITLE": "Kickstart App",
-            "DESCRIPTION": "Create process models, forms and app definitions, then share your models and definitions with other people."
+            "TITLE": "创建流程",
+            "DESCRIPTION": "创建一个流程模型, 表单和流程定义,然后把你的模型和定义分享给别人."
         },
         "TASKS": {
-            "TITLE": "Task App",
-            "DESCRIPTION": "Access your full task list and work on any tasks assigned to you from any process app. Also, start new processes and tasks."
+            "TITLE": "流程任务",
+            "DESCRIPTION": "访问你的所有任务列表并且操作任何签收人是你的任务,当然也可以开始一个新的流程或任务."
         },
         "IDENTITY-MANAGEMENT": {
-            "TITLE": "Identity management",
-            "TITLE-TENANT-ADMIN": "Identity management",
-            "DESCRIPTION": "Manage your profile: change your picture, name and other settings. As an admin user, manage users and groups.",
-            "DESCRIPTION-TENANT-ADMIN": "Manage the users and groups in your organization."
+            "TITLE": "权限管理",
+            "TITLE-TENANT-ADMIN": "权限管理",
+            "DESCRIPTION": "管理个人信息: 修改你的头像, 姓名和其他设置.",
+            "DESCRIPTION-TENANT-ADMIN": "管理组织架构中的用户和组."
+        },
+        "PROCESS-MANAGE": {
+          "TITLE": "流程管理",
+          "TITLE-TENANT-ADMIN": "流程管理",
+          "DESCRIPTION": "流程列表查看.",
+          "DESCRIPTION-TENANT-ADMIN": "管理流程."
         },
         "CUSTOM-APP" : {
             "TITLE-TASKS": "tasks",

@@ -27,6 +27,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+/**
+ * @author nana
+ * @date 2019/4/18 15:26
+ */
 public abstract class AbstractAppDefinitionsResource {
 
   private final Logger logger = LoggerFactory.getLogger(AbstractAppDefinitionsResource.class);
@@ -43,15 +47,17 @@ public abstract class AbstractAppDefinitionsResource {
 
   protected static final AppDefinitionRepresentation idmAppDefinitionRepresentation = AppDefinitionRepresentation.createDefaultAppDefinitionRepresentation("identity");
 
+  protected static final AppDefinitionRepresentation processManageDefinitionRepresentation = AppDefinitionRepresentation.createDefaultAppDefinitionRepresentation("processManage");
+
   protected ResultListDataRepresentation getAppDefinitions() {
     List<AppDefinitionRepresentation> resultList = new ArrayList<AppDefinitionRepresentation>();
-
     // Default app: kickstart
     resultList.add(kickstartAppDefinitionRepresentation);
-
     // Default app: tasks and IDM (available for all)
     resultList.add(taskAppDefinitionRepresentation);
     resultList.add(idmAppDefinitionRepresentation);
+    // 流程管理
+    resultList.add(processManageDefinitionRepresentation);
 
     // Custom apps
     Map<String, Deployment> deploymentMap = new HashMap<String, Deployment>();

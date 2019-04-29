@@ -1,0 +1,198 @@
+{
+   "IDM": {
+      "GENERAL" : {
+        "MAIN-TITLE": "Activiti - Identity Management",
+        "NAVIGATION": {
+            "USER-MGMT": "流程列表"
+        },
+        "ACTION": {
+          "CANCEL": "Cancel",
+          "CREATE": "Create",
+          "SAVE": "Save",
+          "CLOSE": "Close",
+          "LOGOUT": "Sign out",
+          "ABOUT": "About Alfresco Activiti"
+        },
+        "ERROR": {
+            "GENERIC": "Sorry, an error occured...",
+            "UNKNOWN": "Sorry, an error occured while performing the requested operation.",
+            "BAD_REQUEST": "An error occured while performing the requested operation",
+            "NOT_FOUND": "The resource you are trying to access does not exist",
+            "UNAUTHORIZED": "You should sign in in order to perform the requested operation.",
+            "FORBIDDEN": "You are not allowed to perform the requested operation",
+            "INTERNAL_SERVER_ERROR": "Sorry, an unexpected error occured while performing the requested operation."
+        }
+      },
+      "USER-MGMT": {
+        "TITLE": "",
+         "CREATE-USER": "创建",
+         "NAME-SEARCH": "查询",
+         "COMPANY": "Company",
+         "STATUS": "Status",
+         "ACCOUNT": "Account type",
+         "ACTIONS": "Select an action",
+         "CHANGE-STATUS": "Change status",
+         "CHANGE-ACCOUNT-TYPE": "Change account type",
+         "CHANGE-PASSWORD": "Change password",
+         "EDIT-USER": "Change details",
+         "DELETE-USERS": "Delete",
+         "TOTAL-USERS": "total",
+         "INACTIVE-USERS": "inactive",
+         "ENTERPRISE-USERS": "enterprise",
+         "ACTIVE-USERS": "active",
+         "DELETED-USERS": "deleted",
+         "ORDER-BY": "Order by",
+         "SHOW-NEXT": "Show next",
+         "SHOW-PREVIOUS": "Show previous",
+         "NO-MATCHING-USERS": "Found no matching users",
+         "MATCHING-USERS": "Found {{total | number}} matching user(s), showing {{start + 1}} to {{start + size}}",
+         "ID": "ID",
+         "EMAIL": "Email",
+         "NAME": "Name",
+         "CREATED": "Created",
+         "TYPE": "Type",
+         "EXTERNAL-ID": "External id",
+         "LAST-SYNC-TIME": "Last update",
+         "FILTERS": {
+             "STATUS-ANY": "Any status",
+             "STATUS-ACTIVE": "Active",
+             "STATUS-INACTIVE": "Inactive",
+             "STATUS-PENDING": "Pending",
+             "STATUS-DELETED": "Deleted",
+             "TYPE-ANY": "Any type",
+             "SORT-DATE-NEWEST": "Date created, newest",
+             "SORT-DATE-OLDEST": "Date created, oldest",
+             "SORT-EMAIL-A": "Email, A-Z",
+             "SORT-EMAIL-Z": "Email, Z-A",
+             "SORT-ID-A": "User id, A-Z",
+             "SORT-ID-Z": "User id, Z-A"
+         },
+         "POPUP": {
+             "CREATE-TITLE": "Create user",
+             "EDIT-TITLE": "Edit user details",
+             "CREATE-ID": "User id",
+             "CREATE-EMAIL": "Email",
+             "CREATE-INVALID-EMAIL": "Invalid",
+             "CREATE-PASSWORD": "Password",
+             "CREATE-FIRSTNAME": "First name",
+             "CREATE-LASTNAME": "Last name",
+             "CREATE-TENANT": "Tenant",
+             "CREATE-COMPANY": "Company",
+             "CREATE-STATUS": "Status",
+             "CREATE-TYPE": "Type",
+             "BULK-UPDATE-TITLE": "Bulk update users",
+             "BULK-UPDATE-NEW-STATUS": "New status:",
+             "BULK-UPDATE-NEW-TYPE": "New account type:",
+             "BULK-UPDATE-EMAIL-NOTIFICATIONS": "Send email notifications for status change",
+             "BULK-UPDATE-STATUS-USERS": "You are about to update the status for these {{length}} user(s):",
+             "BULK-UPDATE-TYPE-USERS": "You are about to update the account type for these {{length}} user(s):",
+             "BULK-UPDATE-CANCEL": "Cancel and close",
+             "BULK-UPDATE-CONFIRM": "Update users",
+             "BULK-UPDATE-PASSWORD-TITLE": "Change password",
+             "BULK-UPDATE-PASSWORD": "Password",
+             "BULK-UPDATE-PASSWORD-REPEAT": "Repeat password",
+             "BULK-UPDATE-PASSWORD-CONFIRM": "Change"
+         }
+      },
+      "PROCESS-MGMT": {
+       "TITLE": "",
+       "CREATE-USER": "创建",
+       "NAME-SEARCH": "查询",
+       "COMPANY": "Company",
+       "STATUS": "Status",
+       "ACCOUNT": "Account type",
+       "ACTIONS": "Select an action",
+       "CHANGE-STATUS": "Change status",
+       "CHANGE-ACCOUNT-TYPE": "Change account type",
+       "CHANGE-PASSWORD": "Change password",
+       "EDIT-USER": "Change details",
+       "DELETE-USERS": "Delete",
+       "TOTAL-USERS": "total",
+       "INACTIVE-USERS": "inactive",
+       "ENTERPRISE-USERS": "enterprise",
+       "ACTIVE-USERS": "active",
+       "DELETED-USERS": "deleted",
+       "ORDER-BY": "Order by",
+       "SHOW-NEXT": "Show next",
+       "SHOW-PREVIOUS": "Show previous",
+       "NO-MATCHING-USERS": "Found no matching users",
+       "MATCHING-USERS": "Found {{total | number}} matching user(s), showing {{start + 1}} to {{start + size}}",
+       "ID": "编号",
+        "IMAGE":"流程图预览",
+        "DESC":"描述",
+       "EMAIL": "邮箱",
+       "NAME": "流程名称",
+       "CREATED": "Created",
+       "TYPE": "Type",
+       "EXTERNAL-ID": "External id",
+       "LAST-SYNC-TIME": "Last update",
+       "FILTERS": {
+         "STATUS-ANY": "Any status",
+         "STATUS-ACTIVE": "Active",
+         "STATUS-INACTIVE": "Inactive",
+         "STATUS-PENDING": "Pending",
+         "STATUS-DELETED": "Deleted",
+         "TYPE-ANY": "Any type",
+         "SORT-DATE-NEWEST": "Date created, newest",
+         "SORT-DATE-OLDEST": "Date created, oldest",
+         "SORT-EMAIL-A": "Email, A-Z",
+         "SORT-EMAIL-Z": "Email, Z-A",
+         "SORT-ID-A": "User id, A-Z",
+         "SORT-ID-Z": "User id, Z-A"
+       },
+       "POPUP": {
+         "CREATE-TITLE": "Create user",
+         "EDIT-TITLE": "Edit user details",
+         "CREATE-ID": "User id",
+         "CREATE-EMAIL": "Email",
+         "CREATE-INVALID-EMAIL": "Invalid",
+         "CREATE-PASSWORD": "Password",
+         "CREATE-FIRSTNAME": "First name",
+         "CREATE-LASTNAME": "Last name",
+         "CREATE-TENANT": "Tenant",
+         "CREATE-COMPANY": "Company",
+         "CREATE-STATUS": "Status",
+         "CREATE-TYPE": "Type",
+         "BULK-UPDATE-TITLE": "Bulk update users",
+         "BULK-UPDATE-NEW-STATUS": "New status:",
+         "BULK-UPDATE-NEW-TYPE": "New account type:",
+         "BULK-UPDATE-EMAIL-NOTIFICATIONS": "Send email notifications for status change",
+         "BULK-UPDATE-STATUS-USERS": "You are about to update the status for these {{length}} user(s):",
+         "BULK-UPDATE-TYPE-USERS": "You are about to update the account type for these {{length}} user(s):",
+         "BULK-UPDATE-CANCEL": "Cancel and close",
+         "BULK-UPDATE-CONFIRM": "Update users",
+         "BULK-UPDATE-PASSWORD-TITLE": "Change password",
+         "BULK-UPDATE-PASSWORD": "Password",
+         "BULK-UPDATE-PASSWORD-REPEAT": "Repeat password",
+         "BULK-UPDATE-PASSWORD-CONFIRM": "Change"
+       }
+     },
+      "USERS": {
+        "TITLE": "User administration",
+        "ACTION": {
+          "CREATE": "Create user"
+        }
+      }
+    },
+    "GENERAL": {
+        "ACTION": {
+            "CLOSE": "Close"
+        },
+        "MESSAGE": {
+            "SELECT-PEOPLE-HELP": "Use &uparrow; and &downarrow; to select and press enter to confirm",
+            "SELECT-GROUP-HELP": "Use &uparrow; and &downarrow; to select and press Enter to confirm",
+            "SELECT-GROUP-SEARCH-PLACEHOLDER": "Search group",
+            "SELECT-GROUP-NO-MATCHING-RESULTS": "Use the search box above to find groups."
+        },
+        "TITLE": {
+            "MATCHING-PEOPLE": "Matching people",
+            "SELECT-GROUP": "Select group",
+            "MATCHING-GROUPS": "Matching groups"
+        }
+    },
+    "INVOLVE-PEOPLE": {
+        "ACTION-SELECT": "Select",
+        "SEARCH-PLACEHOLDER": "Search by name",
+        "NO-MATCHING-RESULTS": "Use the search box above to find users"
+    }
+}
